@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Cálculo de intereses</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Problema 1</h1>
+        <form name="formulario1">
+            <table style="text-align: left; margin-left: auto; margin-right: auto;" id="fdp">
+                <tbody >
+                    <tr>
+                        <td>
+                            <label for="capital_a_depositar">Ingresa la cantidad de dinero:</label>
+                        </td>
+                        <td>
+                            <input name="capital_a_depositar" required="required" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="duracion_del_deposito_en_semanas">Ingresa la cantidad de meses</label>
+                        </td>
+                        <td>
+                            <input name="duracion_del_deposito_en_semanas" required="required" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="tasa_de_interes">Ingresa el valor de los interes:</label>
+                        </td>
+                        <td>
+                            <input name="tasa_de_interes" required="required" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2" rowspan="1">
+                            <input value="Procesar" type="button" onclick="algoritmo();" />
+                            <input type="reset" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="capital_total_acumulado">Valor Final:</label>
+                        </td>
+                        <td>
+                            <input name="capital_total_acumulado" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        <script src="js/Algotitmo.js"></script>
+    </body>
+</html>

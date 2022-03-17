@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 1.5%;
+}
+
+body{
+    width: 95%;
+    background-size:cover;
+    display: flex;
+    margin: 10px;
+    padding: 0;
+    background-color: rgb(114, 182, 182);
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    background-image: url(https://images6.alphacoders.com/104/thumb-1920-1042421.png);
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+#fdp{
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: rgba(0, 0, 0, 0.404);
+    flex: content;
+}
